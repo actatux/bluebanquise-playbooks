@@ -13,6 +13,8 @@
       tags: hosts_file
     - role: dns_client
       tags: dns_client
+    - role: log_client
+      tags: log_client
     - role: time
       tags: time
       vars:
