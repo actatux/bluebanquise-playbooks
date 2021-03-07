@@ -12,6 +12,8 @@
       tags: set_hostname
     - role: nic
       tags: nic
+    - role: firewall
+      tags: firewall
     - role: repositories_server
       tags: repositories_server
     - role: repositories_client
